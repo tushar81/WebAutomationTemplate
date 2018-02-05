@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PlayIQ_Suite" verbose="10">
+	<listeners>
+        <listener class-name="Helper.ExtentReporterNG" />
+    </listeners>
+	<test name="Test">
+		<classes>
+			<class name="Tests.External_Test"/>			
+			<class name="Tests.Internal_Test"/>									
+		</classes>
+	</test>
+</suite>

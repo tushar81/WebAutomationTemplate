@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[*****************************-_ Automation of - Executed on browser - IE_-*****************************]]>
+    </line>
+    <line>
+      <![CDATA[Executing External Test Case]]>
+    </line>
+    <line>
+      <![CDATA[Working...]]>
+    </line>
+    <line>
+      <![CDATA[Execution Time for Test Test is =  0 min, 0 sec]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Executing Internal Test Case]]>
+    </line>
+    <line>
+      <![CDATA[Working...]]>
+    </line>
+    <line>
+      <![CDATA[Execution Time for Test Test is =  0 min, 0 sec]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[************************************************************************************]]>
+    </line>
+  </reporter-output>
+  <suite name="PlayIQ_Suite" duration-ms="30370" started-at="2018-01-24T16:08:05Z" finished-at="2018-01-24T16:08:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30370" started-at="2018-01-24T16:08:05Z" finished-at="2018-01-24T16:08:35Z">
+      <class name="Tests.External_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]]" name="setUp" is-config="true" duration-ms="16894" started-at="2018-01-24T16:07:48Z" finished-at="2018-01-24T16:08:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[*****************************-_ Automation of - Executed on browser - IE_-*****************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initbrowser()[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]]" name="initbrowser" is-config="true" duration-ms="21258" started-at="2018-01-24T16:08:05Z" finished-at="2018-01-24T16:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowser -->
+        <test-method status="PASS" signature="init()[pri:0, instance:[Internal_Test passed=0 failed=0 skipped=0]]" name="init" is-config="true" duration-ms="8932" started-at="2018-01-24T16:08:26Z" finished-at="2018-01-24T16:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]]" name="Test1" duration-ms="54" started-at="2018-01-24T16:08:35Z" finished-at="2018-01-24T16:08:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing External Test Case]]>
+            </line>
+            <line>
+              <![CDATA[Working...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-01-24T16:08:35Z" finished-at="2018-01-24T16:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 on [External_Test passed=0 failed=0 skipped=0] status=SUCCESS method=External_Test.Test1()[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]] output=Executing External Test Case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Time for Test Test is =  0 min, 0 sec]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:[External_Test passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="16" started-at="2018-01-24T16:08:35Z" finished-at="2018-01-24T16:08:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[************************************************************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.External_Test -->
+      <class name="Tests.Internal_Test">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:[Internal_Test passed=0 failed=0 skipped=0]]" name="Test1" duration-ms="33" started-at="2018-01-24T16:08:35Z" finished-at="2018-01-24T16:08:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing Internal Test Case]]>
+            </line>
+            <line>
+              <![CDATA[Working...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:[Internal_Test passed=0 failed=0 skipped=0]]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-01-24T16:08:35Z" finished-at="2018-01-24T16:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 on [Internal_Test passed=0 failed=0 skipped=0] status=SUCCESS method=Internal_Test.Test1()[pri:0, instance:[Internal_Test passed=0 failed=0 skipped=0]] output=Executing Internal Test Case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Time for Test Test is =  0 min, 0 sec]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- Tests.Internal_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- PlayIQ_Suite -->
+</testng-results>

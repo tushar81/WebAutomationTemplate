@@ -10,8 +10,8 @@ public class Constants
 	public static String today = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
 	
 	//Credentials
-	public static String username = "ukccs1tsa";
-	public static String password = "4$Unitest";
+	public static String username = "";
+	public static String password = "";
 	
 	
 	//IE Driver Path
